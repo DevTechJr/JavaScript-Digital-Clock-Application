@@ -1,0 +1,49 @@
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+.clock {
+  width: 50%;
+  height: 50%;
+  padding: 5rem;
+  background-color: darkolivegreen;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+
+  &-time {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+
+    &-hours,
+    &-minutes,
+    &-seconds {
+      font-size: 7rem;
+      font-weight: bold;
+      color: #fff;
+      margin: 1.5rem;
+    }
+  }
+}
+
+body {
+  padding: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+}
