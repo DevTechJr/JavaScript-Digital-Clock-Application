@@ -11,7 +11,7 @@ const updateClock = () => {
   const s = now.getSeconds();
   let timeStampRN = now.getTime();
   timeStampRN = Math.round(timeStampRN / 1000 / 60);
-  credit.innerHTML = `<h2 class="credit">Built by Anirudh Bharadwaj Vangara,${
+  credit.innerHTML = `<h2 class="credit">Built by Anirudh Bharadwaj Vangara, ${
     timeStampRN - timeBuilt
   }</h2> minutes ago </h2>`;
 
